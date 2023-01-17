@@ -9,4 +9,5 @@ A rework of the DoMS website
 ### Some possible design inspirations
 - https://www.georgetown.edu/
 - https://www.washington.edu/ 
-- https://www.muhlenberg.edu/
+- https://www.muhlenberg.edu/ 
+- https://www.vcu.edu/
