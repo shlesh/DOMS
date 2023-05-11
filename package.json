@@ -1,0 +1,57 @@
+{
+  "name": "doms-iiita",
+  "version": "0.5a",
+  "private": true,
+  "author": "Shailesh Tiwari",
+  "license": "MIT",
+  "description": "The home of Department of Managaement, IIITA.",
+  "homepage": "/",
+  "bugs": {
+    "url": "https://github.com/bugs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
+  },
+  "engines": {
+    "node": "14 || 15 || 16 || 17 || 18 || 19",
+    "npm": ">=6"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hamburger-menu": "^1.2.1",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
