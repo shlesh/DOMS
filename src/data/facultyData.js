@@ -19,7 +19,7 @@ const faculty = [{
 {
   id: "2",
   name: " Dr. Utkarsh Goel ",
-  image: "/images/jane.jpg",
+  image: "/images/faculty_pics/utkarsh.jpg",
   designation: "Asst. Professor",
   courses: ["Management"],
   bio: "Dr. Utkarsh Goel is PhD in from Indian Institute of Technology Roorkee and has done his MBA in finance from Nirma University, Ahmedabad. He is also UGC-NET and JRF qualified. Dr. Utkarsh has experience in corporate banking with IDBI Bank and has taught at Symbiosis International University. He is a life member of Indian Institute of Banking and Finance and is a first class JAIIB. He was selected for Doctoral Student Travel Grant by the prestigious American Finance Association (2014). Dr. Utkarsh has authored several research papers in journals of International repute and has presented papers at various national and international conferences. He is also on the review panel of many reputed International journals. His research interests include IT & BFSI, corporate finance, working capital management, corporate banking and efficiency analysis.",
