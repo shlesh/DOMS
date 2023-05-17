@@ -18,9 +18,10 @@ const AdmissionsText = styled.h1`
 const Headline = styled.h2`
   font-size: 1.5rem;
   color: #FF0000;
+  margin-right:-15px;
 `;
 const SimpleText = styled.div`
-  font-size: 0.5rem;
+  font-size: 1 rem;
   color: #000000;
 `;
 
@@ -35,10 +36,36 @@ const Admissions = () => {
         <Headline>Eligibility:</Headline>
         <SimpleText>
           <ul>
-            <li>Bachelor’s Degree of minimum 3 years duration with minimum 50 per cent marks or equivalent CGPA (45% marks or equivalent CGPA for SC/ST Candidates</li>
+            <li>Bachelor’s Degree of minimum 3 years duration with minimum 50 per cent marks or equivalent CGPA (45% marks or equivalent CGPA for SC/ST Candidates)</li>
             <li>Valid CAT/XAT/CMAT/MAT/GMAT score.</li>
           </ul>
         </SimpleText>
+
+        <Headline>Revised Important Dates:</Headline> 
+        <table>
+          <tbody>
+            <tr>
+           <td> Last date of receiving online application </td>
+           <th> 31st May, 2023</th>
+          
+            </tr>
+            <tr>
+            <td> Declaration of shortlisted candidates </td>
+            <th>8th June, 2023 </th>
+            </tr>
+
+            <tr>
+            <td> Personal Interview at IIIT-Allahabad (offline and online) </td>
+            <th> 15th and 16th June, 2023 </th>
+            </tr>
+
+            <tr>
+            <td> Result Declaration </td>
+            <th> Within 2-3 days after interview </th>
+            </tr>
+          </tbody>
+        </table>
+
       </AdmissionsContainer>
     </div>
   );

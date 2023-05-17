@@ -3,8 +3,10 @@
 }
 
 .btn {
-  padding: 8px 20px;
-  border-radius: 4px;
+  padding: 8px 8px;
+  margin-left:-30px;
+  margin-right: 15px;
+  border-radius: 15px;
   outline: none;
   border: none;
   cursor: pointer;

@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h1 className="navbar-logo">
-        DoMS <img src="/images/logoiiita.png" height={"50px"} style={{alignItems:'center',transform: 'translateY(30%) translateX(50%)'}}/>
+         <img src="/images/logoiiita.png" height={"80px"} style={{alignItems:'center',transform: 'translateY(30%) translateX(50%)'}}/> DoMS
       </h1>
       <div className="menu-icon" onClick={handleClick}>
         <i className={active ? "fas fa-times" : "fas fa-bars"}></i>

@@ -9,6 +9,9 @@ const FacultyContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  flex-direction:row;
+  
+ 
 `;
 
 const FacultyText = styled.h1`
@@ -19,13 +22,15 @@ const FacultyText = styled.h1`
 `;
 
 const FacultyCard = styled(Card)`
-  width: 300px;
+  width: 400px;
   margin: 1rem;
   cursor: pointer;
+  display:flex;
+  flex-direction:row;
 `;
 
 const FacultyImage = styled.img`
-  width: 100%;
+  width: 40%;
   height: 200px;
   object-fit: cover;
 `;
@@ -40,6 +45,12 @@ const FacultyDesignation = styled(Typography)`
   margin-top: 0.5rem;
 `;
 
+const FacultyStudy = styled(Typography)`
+font-size: 1rem;
+margin-top: 0.5rem; 
+`;
+
+
 const Faculty = () => {
   return (
     <FacultyContainer>
@@ -53,6 +64,7 @@ const Faculty = () => {
             <CardContent>
               <FacultyName variant="h5">{faculty.name}</FacultyName>
               <FacultyDesignation variant="body1">{faculty.designation}</FacultyDesignation>
+              <FacultyStudy variant="body1">{faculty.study}</FacultyStudy>
             </CardContent>
           </FacultyCard>
         </Link>
