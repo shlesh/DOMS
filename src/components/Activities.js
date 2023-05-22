@@ -24,10 +24,13 @@ const Headline = styled.h2`
   color: #FF0000;
 `;
 const SimpleText = styled.div`
-  font-size: 0.5rem;
+  font-size: 1 rem;
   color: #000000;
 `;
 
+const img = styled.div`
+margin-right:100px;
+`;
 
 const Activities = () => {
   return (

@@ -164,7 +164,7 @@ const faculty = [{
    {
      id: "10",
   name: " Dr. Anurika Vaish ",
-  image: "/images/jane.jpg",
+  image: "/images/faculty_pics/anurika.png",
   designation: "Associate Professor",
   study:"PH.D",
   courses:[" Principle of Management", " Economics" , "International Business Management" , " Finance and accounting" ,"Management and cost accounting" , " Strategic cost management"," Principles of Economics","General Management","Production and Operation Management and Banking and financial Institutions."]  ,

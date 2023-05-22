@@ -66,6 +66,7 @@ const Admissions = () => {
           </tbody>
         </table>
 
+        <Headline>Brochure: </Headline> 
       </AdmissionsContainer>
     </div>
   );

@@ -21,9 +21,10 @@ const FacultyProfileCard = styled(Card)`
 `;
 
 const FacultyProfileImage = styled.img`
-  width: 50%;  
-  height: 350px;
-
+  width: 45%;  
+  height: 300px;
+  margin-left:1rem;
+  margin-top:1rem;
   
 `;
 
@@ -86,9 +87,11 @@ const FacultyProfile = () => {
     <FacultyProfileContainer>
      
       <FacultyProfileCard>
-        <center><FacultyProfileImage src={facultyVar.image} alt={facultyVar.name} /> </center>
+        <FacultyProfileImage src={facultyVar.image} alt={facultyVar.name} /> 
         <CardContent>
-          <FacultyProfileName variant="h5">{facultyVar.name}</FacultyProfileName>
+          <FacultyProfileName variant="h5">{facultyVar.name}
+          
+          </FacultyProfileName>
 
           <FacultyProfileDesignation variant="body1">{facultyVar.designation}</FacultyProfileDesignation> 
           <FacultyProfileStudy variant="body1">{facultyVar.study}</FacultyProfileStudy>
