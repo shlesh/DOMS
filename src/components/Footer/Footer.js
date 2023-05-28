@@ -74,7 +74,7 @@ const Footer = (prop) => {
                   Get 15% off your first purchase! Plus, be the first to know
                   about sales, new product launches and exclusive offers!
                 </p>
-                <form
+                {/* <form
                   className={styles.newsLetterForm}
                   onSubmit={(e) => subscribeHandler(e)}
                 >
@@ -85,7 +85,7 @@ const Footer = (prop) => {
                     placeholder={'Email'}
                     handleChange={(_, e) => setEmail(e)}
                   />
-                </form>
+                </form> */}
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
                     <div

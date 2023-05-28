@@ -6,7 +6,7 @@ import Hero from '../components/Hero';
 // import BlogPreviewGrid from '../components/BlogPreviewGrid';
 import Highlight from '../components/Highlight';
 import Layout from '../components/Layout/Layout';
-import ProductCollectionGrid from '../components/ProductCollectionGrid';
+// import ProductCollectionGrid from '../components/ProductCollectionGrid';
 // import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
@@ -50,8 +50,25 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
-          <ProductCollectionGrid />
+          <Title name={'Strength of department'} />
+          {/* <ProductCollectionGrid /> */}
+          <p style={{maxWidth:"100%", }}>The strength of the department lies in the faculty who are having exposure to fields of Management 
+          and IT, belonging to various institutes of national importance and centers of excellence. Apart from 
+          having its regular faculty members, the Institute has also been very actively supported by experts 
+          from industry and academics like those from:</p>
+          <ul>
+            <li>ISB Hyderabad</li>
+            <li>Hughes Software Systems</li>
+            <li>Jindal Iron & Steel Co. Ltd</li>
+            <li>BSNL</li>
+            <li>Telecom Consultant India Pvt. Ltd, etc.</li>
+            <li>Eli Broad School of Business at the Michigan State University, U.S.A</li>
+            <li>Buffalo University</li> <li>Sunny New York</li> <li>IIM Ahmedabad</li>
+            <li>IIM Lucknow</li>
+            <li>IIM Kolkatta</li>
+            <li>Thailand University, LUMBA</li>
+            <li>TCS Denmark</li>
+          </ul> 
         </Container>
       </div>
 
@@ -59,14 +76,14 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/highlight.png'}
+            image={'/faculty_pics/Pragya.png'}
             altImage={'highlight image'}
-            miniImage={'/highlightmin.png'}
+            miniImage={'/logoiiita.png'}
             miniImageAlt={'mini highlight image'}
             title={'HoD’s Address'}
-            description={`Having a whole department pushing for excellence`}
-            textLink={'shop now'}
-            link={'/shop'}
+            description={`Management as a discipline has effectively endured turbulence of time and reflects newer competencies responding to newer challenges. We at IIIT-A in the Department of Management Studies for last two decades of existence have faced the similar music and duly resonate with the tunes of time.`}
+            textLink={'Faculties'}
+            link={'/faculty'}
           />
         </Container>
       </div>

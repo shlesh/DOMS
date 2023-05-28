@@ -38,6 +38,11 @@
     color: var(--standard-light-blue);
 }
 
+ul {
+    list-style-type: circle; /* sets the bullet point style */
+    margin-left: 20px; /* adds some space between the bullet point and the text */
+}
+
 .contentTitle{
     text-align: center;
     font-weight: normal;
