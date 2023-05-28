@@ -34,6 +34,10 @@
     color: var(--standard-gold);
 }
 
+.light_blue {
+    color: var(--standard-light-blue);
+}
+
 .contentTitle{
     text-align: center;
     font-weight: normal;
@@ -86,29 +90,8 @@
     margin: 96px 40px 0px 40px;
 }
 
-.socialContainer {
-    margin-top: 64px;
-}
-
-.socialContentGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.socialContentGrid img {
-    width: 100%;
-    object-fit: cover;
-}
 
 @media (max-width: 800px) {
-    .sustainableContainer {
-        margin: 96px 0px 0px 0px;
-    }
-
-    .socialContentGrid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .highlightContainer {
         margin: 88px 0px 40px 0px;
     }

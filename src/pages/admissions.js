@@ -1,26 +1,26 @@
 import React from 'react';
-import * as styles from './faq.module.css';
+import * as styles from './admissions.module.css';
 
 import Layout from '../components/Layout/Layout';
-import Banner from '../components/Banner';
+// import Banner from '../components/Banner';
 import Container from '../components/Container';
 
-const FaqPage = (props) => {
+const AdmissionsPage = (props) => {
   return (
     <Layout>
       <div className={styles.root}>
-        <Banner
+        {/* <Banner
           maxWidth={'650px'}
           name={`Frequently Asked Questions`}
           bgImage={'/faqCover.png'}
           color={'var(--standard-white)'}
           height={'350px'}
-        />
+        /> */}
         <Container>
           <div className={styles.section}>
-            <span>Your Orders</span>
+            <span>IIIT-Allahabad announces admissions for its 2 years MBA Program 2023</span>
             <div className={styles.subSection}>
-              <h3>Deliveries</h3>
+              <h3 className={styles.mainHeader}>ADMISSIONS 2023</h3>
               <p>
                 To review the status of your order please visit the "My Orders"
                 section of your Sunspel Account. You should receive an email
@@ -116,4 +116,4 @@ const FaqPage = (props) => {
   );
 };
 
-export default FaqPage;
+export default AdmissionsPage;

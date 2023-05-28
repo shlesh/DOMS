@@ -11,6 +11,7 @@ const Hero = (props) => {
     ctaAction,
     image,
     maxWidth,
+    titleColor,
     ctaStyle,
     ctaLink,
     ctaTo,
@@ -20,8 +21,8 @@ const Hero = (props) => {
     <div className={styles.root} style={{ backgroundImage: `url(${image})` }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
-        {title && <h2 className={styles.title}>{title}</h2>}
-        {subtitle && <span className={styles.subtitle}>{subtitle}</span>}
+        {title && <h2 className={styles.title} style={{color:titleColor }}>{title}</h2>}
+        {subtitle && <span className={styles.subtitle} style={{color:titleColor }}>{subtitle}</span>}
         {ctaText && (
           <Button
             className={`${styles.ctaButton} ${ctaStyle}`}
