@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import AttributeGrid from '../components/AttributeGrid';
+// import AttributeGrid from '../components/AttributeGrid';
 import Container from '../components/Container';
 import Hero from '../components/Hero';
 // import BlogPreviewGrid from '../components/BlogPreviewGrid';
@@ -127,7 +127,7 @@ const IndexPage = () => {
           ctaStyle={styles.ctaCustomButton}
         />
       </div> */}      
-      <AttributeGrid />
+      {/* <AttributeGrid /> */}
     </Layout>
   );
 };

@@ -69,23 +69,10 @@ const Footer = (prop) => {
             })}
             <div className={styles.newsLetter}>
               <div className={styles.newsLetterContent}>
-                <span className={styles.linkTitle}>Newsletter</span>
-                <p className={styles.promoMessage}>
-                  Get 15% off your first purchase! Plus, be the first to know
-                  about sales, new product launches and exclusive offers!
-                </p>
-                {/* <form
-                  className={styles.newsLetterForm}
-                  onSubmit={(e) => subscribeHandler(e)}
-                >
-                  <FormInputField
-                    icon={'arrow'}
-                    id={'newsLetterInput'}
-                    value={email}
-                    placeholder={'Email'}
-                    handleChange={(_, e) => setEmail(e)}
-                  />
-                </form> */}
+                <span className={styles.linkTitle}>Socials</span>
+                {/* <p className={styles.promoMessage}>
+                  Our various social handles!
+                </p> */}
                 <div className={styles.socialContainer}>
                   {Config.social.youtube && (
                     <div
@@ -130,56 +117,33 @@ const Footer = (prop) => {
               </div>
             </div>
           </div>
+          <div style={{justifyContent:"center"}}><span style={{color:"#fff",display:"flex", justifyContent:"center"}}>
+                Copyright © {new Date().getFullYear()} . {' '}
+                <Button target={true} href="https://iiita.ac.in/">
+                  IIITA
+                </Button>. All rights reserved. 
+              </span></div>
+          
         </div>
       </Container>
-      <div className={styles.contentBottomContainer}>
+      {/* <div className={styles.contentBottomContainer}>
         <Container size={'large'} spacing={'min'}>
           <div className={styles.contentBottom}>
-            <div className={styles.settings}>
-              <Dropdown
-                label={'Country/Region'}
-                optionList={Config.currencyList}
-              />
-              <Dropdown label={'Language'} optionList={Config.languageList} />
-            </div>
             <div className={styles.copyrightContainer}>
-              <div className={styles.creditCardContainer}>
-                {Config.paymentOptions.amex && (
-                  <img
-                    className={styles.amexSize}
-                    src={'/amex.png'}
-                    alt={'amex'}
-                  ></img>
-                )}
-                {Config.paymentOptions.mastercard && (
-                  <img
-                    className={styles.masterSize}
-                    src={'/master.png'}
-                    alt={'mastercard'}
-                  ></img>
-                )}
-                {Config.paymentOptions.visa && (
-                  <img
-                    className={styles.visaSize}
-                    src={'/visa.png'}
-                    alt={'visa'}
-                  ></img>
-                )}
-              </div>
               <span>
-                {new Date().getFullYear()} (c) . Built by{' '}
-                <Button target={true} href="https://www.matterdesign.com.au/">
-                  Matter.
+                Copyright © {new Date().getFullYear()} . 
+                <Button target={true} href="https://iiita.ac.in/">
+                  IIITA
                 </Button>{' '}
                 Powered by{' '}
-                <Button target={true} href="https://jamm.matter.design/">
-                  JAMM.™
+                <Button target={true} href="">
+                  Gatsby & React
                 </Button>
               </span>
             </div>
           </div>
         </Container>
-      </div>
+      </div> */}
     </div>
   );
 };

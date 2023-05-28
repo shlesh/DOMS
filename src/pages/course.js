@@ -61,11 +61,11 @@ const HowToUsePage = (props) => {
               <Button target={true} href="https://jamm.matter.design/">
                 Read more about JAMM.™
               </Button>
-              <img
+              {/* <img
                 alt={'JAMM Detail'}
                 src={'/how-to-use/jamm-sydney-1upd@2x.png'}
                 style={{ display: 'block', height: 'auto' }}
-              />
+              /> */}
             </div>
             <h3>Course Structure</h3>
             <div id={'#courseStructure'} ref={toolsRef}>
@@ -349,76 +349,15 @@ const HowToUsePage = (props) => {
                   </tr>
                 </tbody>
               </table>
-              <strong>Content Management Systems (CMS):</strong>
-              <ul>
-                <li>Contentful</li>
-                <li>WordPress</li>
-                <li>Sanity</li>
-                <li>Builder.io</li>
-              </ul>
-
-              <strong>Advanced Search:</strong>
-              <ul>
-                <li>Algolia</li>
-                <li>Searchspring (roadmap)</li>
-                <li>XO (roadmap)</li>
-                <li>Syte (roadmap)</li>
-              </ul>
-
-              <strong>Product Information Management (PIM):</strong>
-              <ul>
-                <li>Akeneo</li>
-              </ul>
-
-              <strong>Marketing Automation:</strong>
-              <ul>
-                <li>Klaviyo</li>
-                <li>Ortto</li>
-                <li>Dot Digital</li>
-                <li>Omnisend</li>
-              </ul>
-
-              <strong>Customer Support:</strong>
-              <ul>
-                <li>Gorgias</li>
-                <li>Zendesk</li>
-              </ul>
-
-              <strong>Reviews and User Generated Content:</strong>
-              <ul>
-                <li>Yotpo</li>
-                <li>Trustpilot</li>
-                <li>Reviews.io</li>
-              </ul>
-
-              <strong>Physical Locations:</strong>
-              <ul>
-                <li>Localisr.io</li>
-              </ul>
-
-              <p>
-                Our team are fanatical about site speed and the agility of a
-                composable commerce approach. If you need help to setup a
-                Headless architecture, we’d love to hear from you.
-              </p>
-
-              <p>
-                <Button
-                  target={true}
-                  href="https://www.matterdesign.com.au/contact/"
-                >
-                  Contact the team at Matter.
-                </Button>
-              </p>
             </div>
           </div>
         </Container>
-        <div className={styles.imageContainer}>
+        {/* <div className={styles.imageContainer}>
           <img
             alt={'Best of Breed tools'}
             src={'/how-to-use/logos@2x.png'}
           ></img>
-        </div>
+        </div> */}
       </div>
     </Layout>
   );

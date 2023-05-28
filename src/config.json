@@ -24,39 +24,35 @@
   },
   "footerLinks": [
     {
-      "subTitle": "Info",
+      "subTitle": "Academics",
       "links": [
         {
           "text": "About Us",
           "link": "/about"
         },
         {
-          "text": "Journal",
-          "link": "/blog"
+          "text": "Courses",
+          "link": "/course"
         },
         {
-          "text": "Privacy Policy",
-          "link": "/support#policy"
+          "text": "Faculty",
+          "link": "/faculty"
         }
       ]
     },
     {
-      "subTitle": "Support",
+      "subTitle": "Other Links",
       "links": [
         {
-          "text": "FAQ",
-          "link": "/faq"
+          "text": "Admissions 2023",
+          "link": "/admissions"
         },
         {
-          "text": "Contact Us",
-          "link": "/support#contact"
-        },
-        {
-          "text": "Shipping & Returns",
+          "text": "Alumni",
           "link": "/support#returns"
         },
         {
-          "text": "How to use this theme",
+          "text": "Photo Gallery",
           "link": "/how-to-use"
         }
       ]
