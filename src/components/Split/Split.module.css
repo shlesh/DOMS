@@ -13,7 +13,14 @@
 
 .contentContainer h4 {
     font-weight: normal;
-    font-size: 42px;
+    font-size: 30px;
+    line-height: 50px;
+    /* margin-bottom: 32px; */
+}
+
+.contentContainer h5 {
+    font-weight: normal;
+    font-size: 20px;
     line-height: 50px;
     margin-bottom: 32px;
 }

@@ -39,9 +39,23 @@
 }
 
 ul {
-    list-style-type: circle; /* sets the bullet point style */
-    margin-left: 20px; /* adds some space between the bullet point and the text */
-}
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul.bullets {
+    margin-left: 40px;
+    list-style: disc;
+  }
+  
+  ul.bullets li {
+    margin-bottom: 5px;
+  }
+  
+  ol {
+    margin: 0;
+    padding-left: 1.8em;
+  }
 
 .contentTitle{
     text-align: center;

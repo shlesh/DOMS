@@ -11,12 +11,15 @@ import Container from '../components/Container';
 
 const SupportPage = (props) => {
   const subpages = [
-    { title: 'Shipping', key: 'shipping' },
-    { title: 'Returns', key: 'returns' },
-    { title: 'Payments & Security', key: 'payments' },
-    { title: 'Terms & Conditions', key: 'terms' },
-    { title: 'Contact Us', key: 'contact' },
-    { title: 'Privacy Policy', key: 'policy' },
+    { title: 'Business Intelligence Lab', key: 'bil' },
+    { title: 'Strategy War Room', key: 'swr' },
+    { title: 'Management Clinic', key: 'clinic' },
+    { title: 'Library', key: 'lib' },
+    { title: 'Campus Network', key: 'net' },
+    { title: 'Sports Facility', key: 'sports' },
+    { title: 'Labs', key: 'labs' },
+    { title: 'Hostels', key: 'hostel' },
+    { title: 'Medical Facility', key: 'med' },
   ];
 
   const [current, setCurrent] = useState(subpages[4]);
@@ -25,22 +28,31 @@ const SupportPage = (props) => {
     let tempElement = <React.Fragment />;
 
     switch (key) {
-      case 'contact':
+      case 'bil':
         tempElement = <Contact />;
         break;
-      case 'policy':
+      case 'swr':
         tempElement = <Policy />;
         break;
-      case 'shipping':
+      case 'clinic':
         tempElement = <Policy />;
         break;
-      case 'returns':
+      case 'lib':
         tempElement = <Policy />;
         break;
-      case 'payments':
+      case 'net':
         tempElement = <Policy />;
         break;
-      case 'terms':
+      case 'sports':
+        tempElement = <Policy />;
+        break;
+      case 'labs':
+        tempElement = <Policy />;
+        break;
+      case 'hostel':
+        tempElement = <Policy />;
+        break;
+      case 'med':
         tempElement = <Policy />;
         break;
       default:

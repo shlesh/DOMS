@@ -92,7 +92,7 @@ const IndexPage = () => {
       <div className={styles.promotionContainer}>
         <Hero image={'/3.jpg'} title={`Regular Workshops and activies for student developments`} maxWidth={'660px'} titleColor={"#03045e"} />
         <div className={styles.linkContainers}>
-          <Link to={'/workshops'}>Workshops</Link>
+          <Link to={'/infrastructure'}>Infrastructure</Link>
           <Link to={'/activities'}>Activities</Link>
         </div>
       </div>

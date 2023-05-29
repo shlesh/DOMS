@@ -17,6 +17,7 @@ const Button = ({
   link,
   fullWidth,
   theme,
+  download,
 }) => {
   const classes = level ? [styles.button] : [styles.link];
 
@@ -47,9 +48,21 @@ const Button = ({
   }
 
   const classOutput = classes.join(' ');
+  const isDownload = download && href && href.endsWith('.pdf');
+
   return (
     <>
-      {href && target && (
+      {isDownload && (
+        <a
+          href={href}
+          className={classOutput}
+          onClick={onClick}
+          download={download}
+        >
+          {children}
+        </a>
+      )}
+      {!isDownload && href && target && (
         <a
           href={href}
           target="_blank"
@@ -60,7 +73,7 @@ const Button = ({
           {children}
         </a>
       )}
-      {href && !target && (
+      {!isDownload && href && !target && (
         <Link to={href} className={classOutput} onClick={onClick}>
           {children}
         </Link>

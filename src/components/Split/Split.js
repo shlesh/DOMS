@@ -4,7 +4,7 @@ import Button from '../Button';
 import * as styles from './Split.module.css';
 
 const Split = (props) => {
-  const { image, alt, title, description, ctaText, cta, bgColor } = props;
+  const { image, alt, title, subtitle, description, ctaText, cta, bgColor } = props;
   return (
     <div className={styles.root}>
       <div
@@ -13,10 +13,13 @@ const Split = (props) => {
       >
         <div className={styles.detailContainer}>
           <h4>{title}</h4>
+          <h5>{subtitle}</h5>
           <p>{description}</p>
-          <Button className={styles.button} level={'primary'} onClick={cta}>
-            {ctaText}
-          </Button>
+          {ctaText && (
+            <Button className={styles.button} level={'primary'} onClick={cta}>
+              {ctaText}
+            </Button>
+          )}
         </div>
       </div>
       <div className={styles.imageContainer}>
