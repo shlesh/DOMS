@@ -22,7 +22,7 @@ const Highlight = (props) => {
         <p>{description}</p>
         <Link to={link}>{textLink}</Link>
         <img
-          className={styles.miniImage}
+          // className={styles.miniImage}
           alt={miniImageAlt}
           src={miniImage}
         ></img>

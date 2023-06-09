@@ -19,8 +19,8 @@ import { Link, navigate } from 'gatsby';
 const IndexPage = () => {
   // const blogData = generateMockBlogData(3);
 
-  const goToShop = () => {
-    navigate('/shop');
+  const goToCourses = () => {
+    navigate('/course');
   };
 
   return (
@@ -32,7 +32,7 @@ const IndexPage = () => {
         title={'Department of Management Studies'}
         subtitle={'IIIT Allahabad'}
         ctaText={'Course Structure'}
-        ctaAction={goToShop}
+        ctaAction={goToCourses}
         titleColor={"#03045e"}
       />
 
@@ -78,8 +78,8 @@ const IndexPage = () => {
           <Highlight
             image={'/faculty_pics/Pragya.png'}
             altImage={'highlight image'}
-            miniImage={'/logoiiita.png'}
-            miniImageAlt={'mini highlight image'}
+            // miniImage={'/logoiiita.png'}
+            // miniImageAlt={'mini highlight image'}
             title={'HoD’s Address'}
             description={`Management as a discipline has effectively endured turbulence of time and reflects newer competencies responding to newer challenges. We at IIIT-A in the Department of Management Studies for last two decades of existence have faced the similar music and duly resonate with the tunes of time.`}
             textLink={'Faculties'}

@@ -117,11 +117,13 @@ const Footer = (prop) => {
               </div>
             </div>
           </div>
+          <hr></hr>
+          <br/>
           <div style={{justifyContent:"center"}}><span style={{color:"#fff",display:"flex", justifyContent:"center"}}>
-                Copyright © {new Date().getFullYear()} . {' '}
-                <Button target={true} href="https://iiita.ac.in/">
+                Copyright © {new Date().getFullYear()}  {' '}
+                <a target={true} href="https://iiita.ac.in/" className={styles.footerIIITA}>
                   IIITA
-                </Button>. All rights reserved. 
+                </a> All rights reserved.
               </span></div>
           
         </div>

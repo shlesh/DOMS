@@ -4,8 +4,8 @@
 }
 
 .highlightImage {
-    width: 600px;
-    height: 730px;
+    /* width: 600px;
+    height: 730px; */
     object-fit: cover;
 }
 
@@ -14,16 +14,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 
-    max-width: 400px;
+    max-width: auto;
     margin: 0 auto;
 }
 
-.miniImage {
+/* .miniImage {
     height: 300px;
     width: 250px;
-}
+} */
 
 .contentContainer h3 {
     margin-bottom: 24px;

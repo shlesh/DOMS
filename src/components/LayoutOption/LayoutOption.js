@@ -9,7 +9,7 @@ const LayoutOption = (props) => {
     <div className={styles.root}>
       <div
         className={styles.layoutIconContainer}
-        onClick={() => navigate('/shopV2')}
+        onClick={() => navigate('/')}
         role={'presentation'}
       >
         <Icon symbol={'list'}></Icon>

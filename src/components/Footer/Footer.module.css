@@ -1,6 +1,6 @@
 .root {
     background-color: var(--bg-dark);
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .content {
@@ -178,6 +178,11 @@
 
 .iconContainer {
     color: var(--standard-white);
+}
+
+.footerIIITA{
+    padding: 0 5px;
+    color: #fff;
 }
 
 @media (hover: hover) {

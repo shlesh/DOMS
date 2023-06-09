@@ -119,7 +119,7 @@ const Header = (prop) => {
           </div>
           <Brand />
           <div className={styles.actionContainers}>
-            <button
+            {/* <button
               aria-label="Search"
               className={`${styles.iconButton} ${styles.iconContainer}`}
               onClick={() => {
@@ -141,7 +141,7 @@ const Header = (prop) => {
               className={`${styles.iconContainer} ${styles.hideOnMobile}`}
             >
               <Icon symbol={'user'}></Icon>
-            </Link>
+            </Link> */}
             <button
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
@@ -150,10 +150,10 @@ const Header = (prop) => {
                 setMobileMenu(false);
               }}
             >
-              <Icon symbol={'bag'}></Icon>
-              <div className={styles.bagNotification}>
+              <Icon symbol={'link'}></Icon>
+              {/* <div className={styles.bagNotification}>
                 <span>1</span>
-              </div>
+              </div> */}
             </button>
             <div className={styles.notificationContainer}>
               <AddNotification openCart={() => setShowMiniCart(true)} />

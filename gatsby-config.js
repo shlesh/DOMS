@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Sydney Ecommerce Theme`,
-    siteUrl: `https://jamm.matter.design`,
+    title: `Department of Management Studies, IIIT Allahabad`,
+    siteUrl: `https://mba.iiita.ac.in`,
   },
   plugins: [
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Sydney Ecommerce Theme`,
-        short_name: `Sydney`,
+        name: `Department of Management Studies, IIIT Allahabad`,
+        short_name: `DoMS`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#ffffff`,
@@ -16,5 +16,12 @@ module.exports = {
         icon: 'src/assets/favicon.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-netlify-functions`,
+      options: {
+        functionsSrc: `${__dirname}/src/functions`,
+        functionsOutput: `${__dirname}/functions`,
+      },
+    }, 
   ],
 };

@@ -1,34 +1,17 @@
 {
-  "currencyList": [
-    { "value": "AUS", "label": "Australia (AUS $)" },
-    { "value": "CAD", "label": "Canada (CAD $)" },
-    { "value": "USD", "label": "United States (US $)" },
-    { "value": "EUR", "label": "Germany (EUR €)" },
-    { "value": "HKD", "label": "Hong Kong (HKD $)" }
-  ],
-  "languageList": [
-    { "value": "english", "label": "English" },
-    { "value": "hindi", "label": "Namaste mf" },
-    { "value": "mandarin", "label": "普通话" }
-  ],
   "social": {
     "facebook": "https://www.facebook.com/IIITAMBA/?ti=as",
     "instagram": "https://www.instagram.com/iiit.allahabad/",
     "twitter": "https://twitter.com/iiita_official",
     "youtube": "https://www.youtube.com/channel/UCviVMQpnSogTGotLLtZNrQQ"
   },
-  "paymentOptions": {
-    "visa": true,
-    "mastercard": true,
-    "amex": true
-  },
   "footerLinks": [
     {
       "subTitle": "Academics",
       "links": [
         {
-          "text": "About Us",
-          "link": "/about"
+          "text": "Home",
+          "link": "/"
         },
         {
           "text": "Courses",
@@ -49,11 +32,11 @@
         },
         {
           "text": "Alumni",
-          "link": "/support#returns"
+          "link": "/alumni"
         },
         {
           "text": "Photo Gallery",
-          "link": "/how-to-use"
+          "link": "/gallery"
         }
       ]
     }
@@ -66,7 +49,7 @@
     },
     {
       "menuLabel": "Faculty",
-      "menuLink": "/blog",
+      "menuLink": "/faculty",
       "category": null
     },
     {
@@ -76,26 +59,18 @@
     },
     {
       "menuLabel": "Links",
-      "menuLink": "/shop",
+      "menuLink": "/",
       "category": [
         {
           "categoryLabel": "Academic",
           "submenu": [
             {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
+              "menuLabel": "Course",
+              "menuLink": "/course"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
+              "menuLabel": "Ph.D. Scholars",
+              "menuLink": "/students"
             }
           ]
         },
@@ -103,24 +78,12 @@
           "categoryLabel": "Misc",
           "submenu": [
             {
-              "menuLabel": "All clothing",
-              "menuLink": "/shop"
+              "menuLabel": "Infrastructure",
+              "menuLink": "/infrastructure"
             },
             {
-              "menuLabel": "sweatshirts & hoodies",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "jackets",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "trousers",
-              "menuLink": "/shop"
-            },
-            {
-              "menuLabel": "pants",
-              "menuLink": "/shop"
+              "menuLabel": "Activities",
+              "menuLink": "/activities"
             }
           ]
         },
@@ -133,41 +96,6 @@
             }
           ]
         }
-      ]
-    }
-  ],
-  "filters": [
-    {
-      "category": "colour",
-      "items": [
-        { "name": "Black", "value": true },
-        { "name": "Green", "value": false },
-        { "name": "Dark Blue", "value": false },
-        { "name": "Blue", "value": true },
-        { "name": "Grey", "value": false },
-        { "name": "Red", "value": false }
-      ]
-    },
-
-    {
-      "category": "size",
-      "items": [
-        { "name": "XXS", "value": false },
-        { "name": "XS", "value": false },
-        { "name": "S", "value": false },
-        { "name": "M", "value": false },
-        { "name": "L", "value": false },
-        { "name": "XL", "value": false },
-        { "name": "XXL", "value": false },
-        { "name": "Onesize", "value": false }
-      ]
-    },
-    {
-      "category": "gender",
-      "items": [
-        { "name": "Male", "value": false },
-        { "name": "Female", "value": false },
-        { "name": "Unisex", "value": false }
       ]
     }
   ]
