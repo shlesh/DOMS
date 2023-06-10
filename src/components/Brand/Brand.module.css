@@ -1,12 +1,22 @@
+/* Brand.module.css */
 .root {
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.logo {
+  display: block;
+  height: 60px;
+  padding-right: 10px;
+}
+
+.svg {
+  display: block;
 }
 
 @media (max-width: 800px) {
-    .root svg {
-        width: 90px;
-        height: 16.67px;
-    }
+  .svg {
+    display: none;
+  }
 }

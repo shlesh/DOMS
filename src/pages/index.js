@@ -29,6 +29,7 @@ const IndexPage = () => {
       <Hero
         maxWidth={'800px'}
         image={'/4.jpg'}
+        // header={'IIIT Allahabad'}
         title={'Department of Management Studies'}
         subtitle={'IIIT Allahabad'}
         ctaText={'Course Structure'}
