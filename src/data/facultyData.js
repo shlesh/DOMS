@@ -55,7 +55,7 @@ const facultyData = [
   {
   id: "4",
   name: " Dr. Saurabh Mishra  ",
-  image: "/saurabhM.webp",
+  image: "/faculty_pics/saurabhM.webp",
   designation: "Asst. Professor",
   study:"Ph.D.",
   courses:["Business Law", "Marketing Management" , "DBMS" ,"Data Mining"," Principles of Management"]  ,
@@ -91,7 +91,7 @@ const facultyData = [
 {
   id: "6",
   name: "Dr. Shashi Kant Rai  ",
-  image: "/sashikantR.webp",
+  image: "/faculty_pics/shashikantR.webp",
   designation: "Asst. Professor",
   study:"Ph.D.",
   courses:["Cyber Law and Information Security", "Information Security Audit" , "Supply Chain Management" ,"Marketing of Services","  Data Protection Act","COBIT"]  ,

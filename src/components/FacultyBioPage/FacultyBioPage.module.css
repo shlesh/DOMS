@@ -49,12 +49,19 @@
 }
 
 .facultyImage {
-  display: block;
+  /* display: block;
   width: 200px;
   height: auto;
   margin: 0 auto 1rem;
   border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  box-shadow: 0 4px 6 rgba(0, 0, 0, 0.1);
+  object-fit: cover;
 }
 
 .facultyDesignation {
@@ -65,11 +72,13 @@
 }
 
 .list {
-  list-style-type: none;
-  padding: 0;
+  
+  /* padding: 0; */
   margin-bottom: 1rem;
 }
 
 .list li {
   margin-bottom: 0.5rem;
+  list-style-type: disc;
+  padding-left: 10px;
 }

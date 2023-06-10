@@ -53,10 +53,15 @@
 }
   
 .facultyImage {
-    width: 100%;
+    /* width: 100%;
     height: auto;
     border-radius: 5px;
+    color: red; */
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
     color: red;
+    object-fit: cover;
 }
   
 .facultyBioLink {
