@@ -2,7 +2,7 @@ const facultyData = [
   {
     id: "1",
     name: "Dr. Pragya Singh",
-    image: "/faculty_pics/Pragya.png",
+    image: "/faculty_pics/pragyaS.webp",
     designation: "Head of Department",
     study:"Ph.D.",
     courses:["Communication skills", " Principles of Management" , "Marketing Management"  , "Business Law"  , "Entrepreneurship Development & Innovation"  , "Business Analytics & key Account Management"  , "Marketing of Services"  , "Advertising & Brand Promotion" , "International Marketing" , "Management" , "COBIT" , "etc" ]  ,
@@ -18,15 +18,15 @@ const facultyData = [
 
 {
   id: "2",
-  name: " Dr. Utkarsh Goel ",
-  image: "/faculty_pics/utkarsh.jpg",
+  name: "Dr. Utkarsh Goel",
+  image: "/faculty_pics/utkarshG.webp",
   designation: "Asst. Professor",
   study:"Ph.D.",
   courses: ["Management"],
   bio: "Dr. Utkarsh Goel is PhD in from Indian Institute of Technology Roorkee and has done his MBA in finance from Nirma University, Ahmedabad. He is also UGC-NET and JRF qualified. Dr. Utkarsh has experience in corporate banking with IDBI Bank and has taught at Symbiosis International University. He is a life member of Indian Institute of Banking and Finance and is a first class JAIIB. He was selected for Doctoral Student Travel Grant by the prestigious American Finance Association (2014). Dr. Utkarsh has authored several research papers in journals of International repute and has presented papers at various national and international conferences. He is also on the review panel of many reputed International journals. His research interests include IT & BFSI, corporate finance, working capital management, corporate banking and efficiency analysis.",
   researchInterests: ["Corporate Finance", " IT& BFSI", "Fintech" , "Efficiency Analysis","Investments"],
   address: [
-    " 3220 (LT) Indian Institute of Information Technology - Allahabad Devghat, Jhalwa,  Allahabad 211 012, (UP) INDIA",
+    "3220 (LT) Indian Institute of Information Technology - Allahabad Devghat, Jhalwa,  Allahabad 211 012, (UP) INDIA",
   ],
   email:["utkarsh [AT] iiita [DOT] ac [DOT] in"],
   phone:["+91-532-2922179"],
@@ -37,7 +37,7 @@ const facultyData = [
 {
   id: "3",
   name: "Dr. Shailendra Kumar",
-  image: "/faculty_pics/Shailendra.jpeg",
+  image: "/faculty_pics/shailendraK.webp",
   designation: "Associate Professor",
   study:"Ph.D.",
   courses: ["Corporate Finance","Investment Management","Research Methodology" , "Managerial Economics" ,"International Financial Management"] ,  
@@ -55,7 +55,7 @@ const facultyData = [
   {
   id: "4",
   name: " Dr. Saurabh Mishra  ",
-  image: "/jane.jpg",
+  image: "/saurabhM.webp",
   designation: "Asst. Professor",
   study:"Ph.D.",
   courses:["Business Law", "Marketing Management" , "DBMS" ,"Data Mining"," Principles of Management"]  ,
@@ -73,7 +73,7 @@ const facultyData = [
 {
   id: "5",
   name: "Dr. Madhvendra Misra  ",
-  image: "/faculty_pics/madhvendra_2 .jpg",
+  image: "/faculty_pics/madhvendraM.webp",
   designation: "Professor",
   study:"Ph.D.",
   courses:["Principles of Management", "Marketing Management" , "Business Environment" ,"Process management & Consultancy"," Strategic Management","Business Continuity & Disaster Recovery Planning"]  ,
@@ -91,7 +91,7 @@ const facultyData = [
 {
   id: "6",
   name: "Dr. Shashi Kant Rai  ",
-  image: "/jane.jpg",
+  image: "/sashikantR.webp",
   designation: "Asst. Professor",
   study:"Ph.D.",
   courses:["Cyber Law and Information Security", "Information Security Audit" , "Supply Chain Management" ,"Marketing of Services","  Data Protection Act","COBIT"]  ,
@@ -108,7 +108,7 @@ const facultyData = [
 {
   id: "7",
   name: "Dr. Ranjit Singh  ",
-  image: "/faculty_pics/ranjit.jpg",
+  image: "/faculty_pics/ranjitS.webp",
   designation: "Professor",
   study:"Ph.D.",
   courses:["Management"],
@@ -127,7 +127,7 @@ const facultyData = [
 {
   id: "8",
   name: " Dr. Vijayshri Tewari ",
-  image: "/faculty_pics/vijayshri.jpg",
+  image: "/faculty_pics/vijayshriT.webp",
   designation: "Associate Professor",
   study:"Ph.D.",
   courses:["Human Resource Management", "OB" , "Principles Of Management" ,"International Business","Business Environment"]  ,
@@ -144,7 +144,7 @@ const facultyData = [
  {
   id: "9",
   name: " Dr. Vineet  Tiwari  ",
-  image: "/faculty_pics/vineet.tiwari.jpg",
+  image: "/faculty_pics/vineetT.webp",
   study:"Ph.D.",
   designation: "Asst. Professor",
   courses:["Supply Chain and Logistics Management", " Operations Research" , "Business Statistics" ,"Procurement Management and E-Logistics","Project Management","Organizational Behavior" ,"Principles of Management"]  ,
@@ -164,7 +164,7 @@ const facultyData = [
 {
   id: "10",
   name: " Dr. Anurika Vaish ",
-  image: "/faculty_pics/anurika.png",
+  image: "/faculty_pics/anurikaV.webp",
   designation: "Associate Professor",
   study:"Ph.D.",
   courses:[" Principle of Management", " Economics" , "International Business Management" , " Finance and accounting" ,"Management and cost accounting" , " Strategic cost management"," Principles of Economics","General Management","Production and Operation Management and Banking and financial Institutions."]  ,
@@ -181,7 +181,7 @@ const facultyData = [
 {
     id: "11",
     name: " Dr. Sudipta Das ",
-    image: "/faculty_pics/sudipta.das.jpg", // image later 
+    image: "/faculty_pics/sudiptaD.webp", // image later 
     designation: " Asst. Professor",
     study:"Ph.D.",
     courses: ["Principle of Economics","International Business Management","Principle of Management" , "Introduction to Finance" ,"Data Mining and Data Warehousing","TQM &amp; Six Sigma"],
