@@ -12,7 +12,7 @@ const MiniCart = (props) => {
     image: '/products/pdp1.jpeg',
     alt: '',
     name: 'Lambswool Crew Neck Jumper',
-    price: 220,
+    // price: 220,
     color: 'Anthracite Melange',
     size: 'xs',
   };
@@ -20,7 +20,7 @@ const MiniCart = (props) => {
   return (
     <div className={styles.root}>
       <div className={styles.titleContainer}>
-        <h4>My Bag</h4>
+        <h4>External Links</h4>
       </div>
       <div className={styles.cartItemsContainer}>
         <MiniCartItem {...sampleCartItem} />

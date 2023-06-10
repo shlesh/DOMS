@@ -1,0 +1,31 @@
+.root {
+    background-color: var(--standard-light-grey);
+    cursor: pointer;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 16px;
+    transition: all ease-in-out 0.3s;
+}
+
+/* src/components/CompanyCard.css */
+.companyCard {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: calc(33.333% - 20px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .companyCard h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  

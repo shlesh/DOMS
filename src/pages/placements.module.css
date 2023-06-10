@@ -1,0 +1,25 @@
+/* src/pages/PlacementsPage.css */
+.placementsPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .placementsPage h1,
+  .placementsPage h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .placementsPage p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+  
+  .companiesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
