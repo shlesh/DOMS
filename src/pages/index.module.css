@@ -38,23 +38,16 @@
     color: var(--standard-light-blue);
 }
 
-ul {
-    list-style: none;
-    padding: 0;
+.list {
+  
+    /* padding: 0; */
+    margin-bottom: 1rem;
   }
   
-  ul.bullets {
-    margin-left: 40px;
-    list-style: disc;
-  }
-  
-  ul.bullets li {
-    margin-bottom: 5px;
-  }
-  
-  ol {
-    margin: 0;
-    padding-left: 1.8em;
+  .list li {
+    margin-bottom: 0.5rem;
+    list-style-type: circle;
+    margin-left: 15px;
   }
 
 .contentTitle{

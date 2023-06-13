@@ -2,26 +2,34 @@ import React from 'react';
 import * as styles from './admissions.module.css';
 import { SEO } from "../components/seo"
 import Layout from '../components/Layout/Layout';
+import Split from '../components/Split';
+import ContactForm from '../components/ContactForm';
 import Container from '../components/Container';
 import Button from '../components/Button';
 
-const AdmissionsPage = (props) => {
+const AwardsPage = (props) => {
   return (
     <Layout>
       <div className={styles.root}>
-        {/* <Banner
-          maxWidth={'650px'}
-          name={`Frequently Asked Questions`}
-          bgImage={'/faqCover.png'}
-          color={'var(--standard-white)'}
-          height={'350px'}
-        /> */}
         <Container>
           <div className={styles.section}>
-            <span>IIIT-Allahabad announces admissions for its 2 years MBA Program 2023</span>
             <div className={styles.subSection}>
-              <h3 className={styles.mainHeader}>ADMISSIONS 2023</h3>
+              <h3 className={styles.mainHeader}>Awards</h3>
               <p></p>
+              <Split
+                image={'/cloth.png'}
+                alt={'attribute description'}
+                title={'Sustainability'}
+                subtitle={'Hello there'}
+                description={
+                  'We design our products to look good and to be used on a daily basis. And our aim is to inspire people to live with few timeless objects made to last. This is why quality over quantity is a cornerstone of our ethos and we have no interest in trends or seasonal collections.'
+                }
+                // ctaText={'learn more'}
+                // cta={() => navigate('/blog')}
+                bgColor={'var(--standard-light-grey)'}
+              />
+              <ContactForm/>
+
               <strong>How to apply</strong>
               <p>
                 Applicants are required to apply online. The candidate needs to get 
@@ -74,7 +82,7 @@ const AdmissionsPage = (props) => {
               <br/>
               <h3>Apply now!</h3>
               <br/>
-              <Button level={'secondary'} href="https://apply.iiita.ac.in/application/authenticate/mba/" target="_blank">Apply Now</Button>
+              <Button level={'primary'} href="https://apply.iiita.ac.in/application/authenticate/mba/" target="_blank">Apply Now</Button>
               <br/>
               <br/>
               <h3>Contact Us:</h3>
@@ -97,10 +105,10 @@ const AdmissionsPage = (props) => {
   );
 };
 
-export default AdmissionsPage;
+export default AwardsPage;
 
 export const Head = () => (
-  <SEO title="Admissions 2023" 
-    description="IIIT-Allahabad announces admissions for its 2 years MBA Program 2023"
+  <SEO title="Awards" 
+    description="Awards & Honors bestowed upon the department"
   />
 )

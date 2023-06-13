@@ -11,12 +11,12 @@ import Drawer from '../Drawer';
 import ExpandedMenu from '../ExpandedMenu';
 import FormInputField from '../FormInputField/FormInputField';
 import Icon from '../Icons/Icon';
-import MiniCart from '../MiniCart';
+import SideLinks from '../SideLinks';
 import MobileNavigation from '../MobileNavigation';
 import * as styles from './Header.module.css';
 
 const Header = (prop) => {
-  const [showMiniCart, setShowMiniCart] = useState(false);
+  const [showSideLinks, setShowSideLinks] = useState(false);
   const [mobileMenu, setMobileMenu] = useState(false);
   const [showMenu, setShowMenu] = useState(true);
 
@@ -27,7 +27,7 @@ const Header = (prop) => {
   const [search, setSearch] = useState('');
 
   const searchRef = createRef();
-  const bannerMessage = 'Admissions open for session 2023';
+  const bannerMessage = 'Admissions closed for session 2023';
   const searchSuggestions = [
     'Oversize sweaters',
     'Lama Pajamas',
@@ -146,7 +146,7 @@ const Header = (prop) => {
               aria-label="Cart"
               className={`${styles.iconButton} ${styles.iconContainer} ${styles.bagIconContainer}`}
               onClick={() => {
-                setShowMiniCart(true);
+                setShowSideLinks(true);
                 setMobileMenu(false);
               }}
             >
@@ -156,56 +156,14 @@ const Header = (prop) => {
               </div> */}
             </button>
             <div className={styles.notificationContainer}>
-              <AddNotification openCart={() => setShowMiniCart(true)} />
+              <AddNotification openCart={() => setShowSideLinks(true)} />
             </div>
           </div>
         </div>
 
-        {/* search container */}
-        <div
-          className={`${styles.searchContainer} ${
-            showSearch === true ? styles.show : styles.hide
-          }`}
-        >
-          <h4>What are you looking for?</h4>
-          <form className={styles.searchForm} onSubmit={(e) => handleSearch(e)}>
-            <FormInputField
-              ref={searchRef}
-              icon={'arrow'}
-              id={'searchInput'}
-              value={search}
-              placeholder={''}
-              type={'text'}
-              handleChange={(_, e) => setSearch(e)}
-            />
-          </form>
-          <div className={styles.suggestionContianer}>
-            {searchSuggestions.map((suggestion, index) => (
-              <p
-                role={'presentation'}
-                onClick={() => {
-                  setShowSearch(false);
-                  navigate(`/search?q=${suggestion}`);
-                }}
-                key={index}
-                className={styles.suggestion}
-              >
-                {suggestion}
-              </p>
-            ))}
-          </div>
-          <div
-            role={'presentation'}
-            onClick={(e) => {
-              e.stopPropagation();
-              setShowSearch(false);
-            }}
-            className={styles.backdrop}
-          ></div>
-        </div>
       </Container>
 
-      {/* menu container */}
+      {/* Side-menu container */}
       <div
         role={'presentation'}
         onMouseLeave={() => setShowMenu(false)}
@@ -219,9 +177,9 @@ const Header = (prop) => {
         </Container>
       </div>
 
-      {/* minicart container */}
-      <Drawer visible={showMiniCart} close={() => setShowMiniCart(false)}>
-        <MiniCart />
+      {/* SideLinks container */}
+      <Drawer visible={showSideLinks} close={() => setShowSideLinks(false)}>
+        <SideLinks />
       </Drawer>
 
       {/* mobile menu */}

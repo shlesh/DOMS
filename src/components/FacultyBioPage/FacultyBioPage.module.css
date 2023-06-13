@@ -79,6 +79,6 @@
 
 .list li {
   margin-bottom: 0.5rem;
-  list-style-type: disc;
-  padding-left: 10px;
+  list-style-type: circle;
+  margin-left: 15px;
 }

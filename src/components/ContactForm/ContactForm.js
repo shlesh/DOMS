@@ -27,7 +27,7 @@ const ContactForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch("/.netlify/functions/sendEmail", {
+      const response = await fetch("../functions/sendEmail", {
         method: "POST",
         body: JSON.stringify(formData),
       });

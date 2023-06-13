@@ -29,7 +29,7 @@ console.log(JSON.parse(event.body));
   // Configure your email transport
   const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
-    port: 587,
+    port: 465,
     secure: false,
     auth: {
       user: "iib2020001@iiita.ac.in",

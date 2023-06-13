@@ -75,6 +75,23 @@
           ]
         },
         {
+          "categoryLabel": "Contact/Connect",
+          "submenu": [
+            {
+              "menuLabel": "Contact Us",
+              "menuLink": "/contact"
+            },
+            {
+              "menuLabel": "Mgmnt Clinic",
+              "menuLink": "/clinic"
+            },
+            {
+              "menuLabel": "Alumni Reg.",
+              "menuLink": "/alumni"
+            }
+          ]
+        },
+        {
           "categoryLabel": "Misc",
           "submenu": [
             {
@@ -84,6 +101,10 @@
             {
               "menuLabel": "Activities",
               "menuLink": "/activities"
+            },
+            {
+              "menuLabel": "Photo Gallery",
+              "menuLink": "/gallery"
             }
           ]
         },

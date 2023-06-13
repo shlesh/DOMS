@@ -2,6 +2,7 @@
 import React from 'react';
 import CompanyCard from '../components/CompanyCard';
 import * as styles from './placements.module.css';
+import { SEO } from "../components/seo"
 
 const PlacementsPage = () => {
   const companies = [
@@ -46,3 +47,9 @@ const PlacementsPage = () => {
 };
 
 export default PlacementsPage;
+
+export const Head = () => (
+  <SEO title="Placements" 
+    description="Find out more about placements of the students at Department of Management Studies, IIITA"
+  />
+)

@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './admissions.module.css';
-
+import { SEO } from "../components/seo"
 import Layout from '../components/Layout/Layout';
 // import Banner from '../components/Banner';
 import Container from '../components/Container';
@@ -309,3 +309,9 @@ const StudentsPage = (props) => {
 };
 
 export default StudentsPage;
+
+export const Head = () => (
+  <SEO title="Students" 
+    description="Students enrolled in the Ph.D. course at DoMs, IIITA"
+  />
+)

@@ -11,12 +11,18 @@
   padding-right: 10px;
 }
 
-.svg {
+.svgLogoText {
   display: block;
 }
 
-@media (max-width: 800px) {
-  .svg {
+@media (max-width: 450px) {
+  .svgLogoText {
     display: none;
+  }
+
+  .logo {
+    display: block;
+    height: 50px;
+    padding-right: 10px;
   }
 }

@@ -1,12 +1,10 @@
 import React from 'react';
 import * as styles from './admissions.module.css';
-
+import { SEO } from "../components/seo"
 import Layout from '../components/Layout/Layout';
-// import Banner from '../components/Banner';
 import Container from '../components/Container';
-// import Button from '../components/Button';
 
-const AdmissionsPage = (props) => {
+const InfrastructurePage = (props) => {
   return (
     <Layout>
       <div className={styles.root}>
@@ -138,4 +136,10 @@ const AdmissionsPage = (props) => {
   );
 };
 
-export default AdmissionsPage;
+export default InfrastructurePage;
+
+export const Head = () => (
+  <SEO title="Infrastructure" 
+    description="MBA at IIITA boasts of the latest and greatest, find out more! "
+  />
+)

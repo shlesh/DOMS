@@ -5,14 +5,14 @@ import Layout from '../components/Layout/Layout';
 import ContactForm from '../components/ContactForm';
 import Container from '../components/Container';
 
-const ActivitiesPage = (props) => {
+const ManagementClinicPage = (props) => {
   return (
     <Layout>
       <div className={styles.root}>
         <Container>
           <div className={styles.section}>
             <div className={styles.subSection}>
-              <h2 className={styles.mainHeader}>Activites/Workshops</h2>
+              <h2 className={styles.mainHeader}>Management Clinic</h2>
               <br/>
               {/* <Split  //let this badboy stay, will prolly use later            // sure thing sir
                 image={'/cloth.png'}
@@ -146,10 +146,10 @@ const ActivitiesPage = (props) => {
   );
 };
 
-export default ActivitiesPage;
+export default ManagementClinicPage;
 
 export const Head = () => (
-  <SEO title="Activities" 
-    description="Theres always something to be done, so have a blast! Go find your calling!"
+  <SEO title="Management Clinic" 
+    description="Management Clinic as an outreach initiative of IIIT-Allahabad to help and support Micro & Small Business. For creating efficient and effective enterprises through ‘Consulting’ & ‘Process Management’. Introducing lean and agile methods/technologies for BPM (Business Process Management)"
   />
 )

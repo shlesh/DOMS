@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { navigate } from 'gatsby';
 import * as styles from './404.module.css';
-
-import Button from '../components/Button';
+import { SEO } from "../components/seo"
 import Container from '../components/Container';
-import FormInputField from '../components/FormInputField/FormInputField';
 import Layout from '../components/Layout';
 
 const NotFoundPage = () => {
@@ -47,3 +45,10 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
+
+
+export const Head = () => (
+  <SEO title="404 | Page not found" 
+    description="The page youre looking for could not be found, hence you're being served this!"
+  />
+)

@@ -1,12 +1,12 @@
 import React, { useRef } from 'react';
 import * as styles from './about.module.css';
-
+import { SEO } from "../components/seo"
 import Layout from '../components/Layout/Layout';
 import ThemeLink from '../components/ThemeLink';
 import Container from '../components/Container';
 import Button from '../components/Button';
 
-const HowToUsePage = (props) => {
+const CoursePage = (props) => {
   let builtRef = useRef();
   let toolsRef = useRef();
 
@@ -363,4 +363,10 @@ const HowToUsePage = (props) => {
   );
 };
 
-export default HowToUsePage;
+export default CoursePage;
+
+export const Head = () => (
+  <SEO title="Course" 
+    description="All about the course offered at MBA, IIITA"
+  />
+)

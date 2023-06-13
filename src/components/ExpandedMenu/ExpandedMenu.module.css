@@ -1,12 +1,12 @@
 .root {
     display: grid;
-    grid-template-columns: 5fr 5fr;
+    grid-template-columns: 1fr;
     padding: 45px 0px;
 }
 
 .linkContainers {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .categoryName {

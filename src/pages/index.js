@@ -1,24 +1,15 @@
 import * as React from 'react';
-
-// import AttributeGrid from '../components/AttributeGrid';
+import { SEO } from "../components/seo"
 import Container from '../components/Container';
 import Hero from '../components/Hero';
-// import BlogPreviewGrid from '../components/BlogPreviewGrid';
 import Highlight from '../components/Highlight';
 import Layout from '../components/Layout/Layout';
-// import ProductCollectionGrid from '../components/ProductCollectionGrid';
-// import ProductCardGrid from '../components/ProductCardGrid';
 import Quote from '../components/Quote';
 import Title from '../components/Title';
-
-// import { generateMockBlogData} from '../helpers/mock';
-
 import * as styles from './index.module.css';
 import { Link, navigate } from 'gatsby';
 
 const IndexPage = () => {
-  // const blogData = generateMockBlogData(3);
-
   const goToCourses = () => {
     navigate('/course');
   };
@@ -57,7 +48,7 @@ const IndexPage = () => {
           and IT, belonging to various institutes of national importance and centers of excellence. Apart from 
           having its regular faculty members, the Institute has also been very actively supported by experts 
           from industry and academics like those from:</p>
-          <ul>
+          <ul className={styles.list}>
             <li>ISB Hyderabad</li>
             <li>Hughes Software Systems</li>
             <li>Jindal Iron & Steel Co. Ltd</li>
@@ -77,7 +68,7 @@ const IndexPage = () => {
       <div className={styles.highlightContainer}>
         <Container size={'large'} fullMobile>
           <Highlight
-            image={'/faculty_pics/Pragya.png'}
+            image={'/faculty_pics/pragyaS.webp'}
             altImage={'highlight image'}
             // miniImage={'/logoiiita.png'}
             // miniImageAlt={'mini highlight image'}
@@ -134,3 +125,9 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
+export const Head = () => (
+  <SEO title="MBA Home" 
+    description="The homepage of MBA, IIIT Allahabad. The Department of Management Studies came into existence in 2004 and was constituted with the philosophy of running and managing the programmes with a focus on management & technology. The department offers a 2 Years Full Time MBA which is the backbone to cater to the objective of the department for attaining academic excellence by horizontal & vertical growth"
+  />
+)
