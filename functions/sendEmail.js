@@ -35,15 +35,15 @@ exports.handler = async (event, context) => {
     port: 587,
     secure: false,
     auth: {
-      user: "iib2020001@iiita.ac.in",
-      pass: "AplhaPappa$$69"
+      user: "serndermailgoes@here.com",
+      pass: "passwordbruh"
     }
   });
 
   // Set up email options
   const mailOptions = {
-    from: "iib2020001@iiita.ac.in",
-    to: "iib2020001@iiita.ac.in",
+    from: "sender@iiita.ac.in",
+    to: "recipient@iiita.ac.in",
     subject: "New Contact Form Submission",
     text: `
 Name: ${name}

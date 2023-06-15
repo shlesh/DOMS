@@ -32,15 +32,15 @@ console.log(JSON.parse(event.body));
     port: 465,
     secure: false,
     auth: {
-      user: "iib2020001@iiita.ac.in",
-      pass: "AplhaPappa$$69",
+      user: "emailgoes@here.com",
+      pass: "passwordbruh$$69",
     },
   });
 
   // Set up email options
   const mailOptions = {
-    from: "iib2020001@iiita.ac.in",
-    to: "iib2020001@iiita.ac.in",
+    from: "emailgoes@here.com",
+    to: "emailgoes@here.com",
     subject: "New Contact Form Submission",
     text: `
 Name: ${name}

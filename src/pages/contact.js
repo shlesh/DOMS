@@ -2,10 +2,7 @@ import React from 'react';
 import * as styles from './admissions.module.css';
 import { SEO } from "../components/seo"
 import Layout from '../components/Layout/Layout';
-import Split from '../components/Split';
-import ContactForm from '../components/ContactForm';
 import Container from '../components/Container';
-import Button from '../components/Button';
 
 const ContactPage = (props) => {
   return (
@@ -28,7 +25,7 @@ const ContactPage = (props) => {
                 <span>Allahabad 211012, (UP) INDIA</span><br/>
                 <span>Phone: +91-532-292-2180, 2179, 2178</span><br/>
                 <span>FAX: +91-532-292-2125</span><br/>
-                <span>Email: <a href="mailto:hod.mba@iiita.ac.in">Send Email</a></span>
+                <span>Email: <a href="mailto:hod.mba@iiita.ac.in" target="_blank">Send Email</a></span>
               </p>
 
             </div>
