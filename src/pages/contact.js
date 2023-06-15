@@ -27,7 +27,7 @@ const ContactPage = (props) => {
                 <span>FAX: +91-532-292-2125</span><br/>
                 <span>Email: <a href="mailto:hod.mba@iiita.ac.in" target="_blank">Send Email</a></span>
               </p>
-
+{/* Hello there */}
             </div>
           </div>
 
