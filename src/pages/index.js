@@ -16,7 +16,7 @@ const IndexPage = () => {
 
   return (
     <Layout disablePaddingBottom>
-      {/* Hero Container */}
+      {/* Hero Container bruh */}
       <Hero
         maxWidth={'800px'}
         image={'/4.jpg'}
